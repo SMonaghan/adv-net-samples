@@ -17,7 +17,7 @@
 int main(int argc, char ** argv)
 {
         char* server_port = "1234";
-        char* server_ip = "128.164.92.29";
+        char* server_ip = "127.0.0.1";
         char *message = "Hello World";
         int sockfd, rc;
         struct addrinfo hints, *server;
